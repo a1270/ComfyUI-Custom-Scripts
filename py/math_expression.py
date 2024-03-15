@@ -50,7 +50,7 @@ functions = {
     "randfloat": {
         "args": (2,2),
         "call": lambda a, b: random.uniform(a, b),
-        "hint": "...floats"
+        "hint": "min, max"
     },
     "randomchoice": {
         "args": (2, None),
