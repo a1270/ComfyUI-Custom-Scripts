@@ -47,6 +47,11 @@ functions = {
         "call": lambda a, b: random.randint(a, b),
         "hint": "min, max"
     },
+    "randfloat": {
+        "args": (2,2),
+        "call": lambda a, b: random.uniform(a, b),
+        "hint": "...floats"
+    },
     "randomchoice": {
         "args": (2, None),
         "call": lambda *args: random.choice(args),
